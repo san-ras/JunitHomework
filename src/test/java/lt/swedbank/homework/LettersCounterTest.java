@@ -22,7 +22,7 @@ public class LettersCounterTest {
 
     @Test
     public void Should_ReturnCharacterCountTwo_When_TextIsPresent() {
-        int occurrences = lettersCounter.countCharacter('a', "Lithuania");
+        int occurrences = lettersCounter.countCharacters('a', "Lithuania");
 
         Assertions.assertEquals(2, occurrences);
         Assertions.assertNotEquals(1, occurrences);

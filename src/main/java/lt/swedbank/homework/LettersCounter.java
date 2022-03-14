@@ -2,7 +2,7 @@ package lt.swedbank.homework;
 
 public class LettersCounter {
 
-    //pirmas metodas - be null reiksmes
+/*    //pirmas metodas - be null reiksmes (nepilnas)
     public int countCharacter(char character, String word) {
         int occurrences = 0;
         for (int i = 0; i < word.length(); i++) {
@@ -11,7 +11,7 @@ public class LettersCounter {
             }
         }
         return occurrences;
-    }
+    }*/
 
     // antras metodas - pilnas
     public int countCharacters(char character, String text) {
