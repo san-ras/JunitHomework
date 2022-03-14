@@ -21,13 +21,13 @@ public class LettersCounterTest {
         System.out.println("After all");
     }
 
-    @Test
+/*    @Test
     public void testLetterCounting() {
         int occurrences = lettersCounter.countCharacter('a', "Lithuania");
 
         Assertions.assertEquals(2, occurrences);
         Assertions.assertNotEquals(1, occurrences);
-    }
+    }*/
 
     @Test
     public void Should_ThrowIlleagalArgumentException_When_TextIsNull() {

@@ -15,7 +15,7 @@ public class LettersCounter {
 
     // antras metodas - pilnas
     public int countCharacters(char character, String text) {
-        if (character == ' ' || text == null) {
+        if (character == '\0' || text == null) {
             throw new IllegalArgumentException(String.format("Method input parameter character was = %s, text was = %s", character, text));
         }
         int counter = 0;
