@@ -4,17 +4,13 @@ import org.junit.jupiter.api.*;
 
 public class LettersCounterTest {
 
-    private LettersCounter lettersCounter;
+    private LettersCounter lettersCounter = new LettersCounter();
 
     @BeforeAll
     public static void setup() {
         System.out.println("Before all");
     }
 
-    @BeforeEach
-    public void initCounter() {
-        lettersCounter = new LettersCounter();
-    }
 
     @AfterAll
     public static void teardown() {
