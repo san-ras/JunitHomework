@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="lt.swedbank.homework.LettersCounterTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-03-13T10:53:56" hostname="DESKTOP-T81E564" time="0.013">
+<testsuite name="lt.swedbank.homework.LettersCounterTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-03-14T11:53:20" hostname="DESKTOP-T81E564" time="0.074">
   <properties/>
-  <testcase name="testLetterCounting()" classname="lt.swedbank.homework.LettersCounterTest" time="0.013"/>
+  <testcase name="Should_ThrowIlleagalArgumentException_When_TextIsNull()" classname="lt.swedbank.homework.LettersCounterTest" time="0.068"/>
+  <testcase name="testLetterCounting()" classname="lt.swedbank.homework.LettersCounterTest" time="0.005"/>
   <system-out><![CDATA[Before all
 After all
 ]]></system-out>
